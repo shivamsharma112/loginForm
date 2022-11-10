@@ -1,0 +1,52 @@
+body{
+  background-color: #2F4F4F;
+  color: white;
+}
+.form-control{
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: groove;
+background:transparent;
+color:white;
+
+
+}
+.form-control:focus{
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer white;
+  color: white;
+  border-color: chocolate;
+}
+
+.feedback-lable{
+  margin-left: 10px;
+}
+.left-contain{
+  margin-top: 50px;
+  }
+#logo{
+width: 100px;
+height: 80px;
+border-radius: 10%;
+}
+.peragraph{
+color:silver;
+}
+.right-side{
+  
+margin-left: 50px;
+}
+.right-contain{
+margin-top: 50px;
+
+}
+.location-btn{
+width: 200px;
+display: flex;
+justify-content: space-around;
+}
+.location-icon{
+margin-top: 8px;
+}
